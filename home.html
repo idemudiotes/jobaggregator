@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Job Aggregator</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md sticky-top p-5">
+        <div class="container-fluid">
+            <a class="logo" href="home.html"><img src="/img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+              <i class="fa fa-bars"></i>
+            </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar">
+            <div class="nav-end">
+              <ul class="navbar-nav ms-5">
+                <li class="nav-item">
+                  <a class="nav-link fs-4 ms-5" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4 ms-5" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-4 ms-5" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a class="btn btn-lg pct fs-4 ms-5" href="search.html" role="button">Perfect Job?</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="body container">
+      <div class="container text-center corp">
+        <h1 class="display-1 fw-bold">Find Your <br><span>Perfect Job</span> Match</h1>
+				<p class="fs-3 m-auto">Jobaggregator helps you find your perfect job 
+          match by giving you full details of the exact job searched for by using the available 
+          categories, showing also recommended jobs and skills needed to learn.</p>
+      </div>
+      <div class="container corp2">
+          <div class="row p-2 border border-1 tout">
+            <div class="col-lg-3 col-md-4">
+              <div class="form-group ">
+                <select class="form-select fs-5 choisi" aria-label="Default select example">
+                  <option value="">Category </option>
+                  <option value="1">Skill</option>
+                  <option value="2">Job Role</option>
+                  <option value="3">Skill / Job Role</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8">
+              <div class="form-group fs-4 watch">
+                <select id="multiple" class="form-select" multiple>
+                  <option class="">Java</option>
+                  <option class="">Javascript</option>
+                  <option class="">PHP</option>
+                  <option class="">Visual Basic</option>
+                  <option class="">React</option>
+                  <option class="">Graphic Design</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        
+        <h5 class="text-start mt-3">Popular Searches: <span class="ms-2 h6">Coreldraw, PHP, 
+          Adobe illustrator, Angular JS, Bootsrap, Django, HTML, jQuery</span>
+        </h5>
+      </div>
+    </div>
+
+    <div class="work container">
+      <div class="container text-center corp">
+        <h1 class="display-1 wb">How <span>Jobaggregator</span> works for you</h1>
+      </div>
+      <div class="work-card mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="body-card text-start pt-5 pb-4 mt-5" >
+                  <div class="date p-5">
+                      <img src="/img/icon1.png" alt="Icon">
+                      <h1 class="mt-5 mb-5">Perfect Job Search</h1>
+                      <p class="pb-5 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat 
+                        bibendum ornare urna, cursus eget convallis. Feugiat imperdiet posuere justo,</p>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="body-card text-start pt-5 pb-4 mt-5" >
+                  <div class="date p-5">
+                      <img src="/img/icon2.png" alt="Icon">
+                      <h1 class="mt-5 mb-5">Highly Paid Jobs</h1>
+                      <p class="pb-5 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat 
+                        bibendum ornare urna, cursus eget convallis. Feugiat imperdiet posuere justo,</p>
+                  </div>
+                
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="body-card text-start pt-5 pb-4 mt-5" >
+                  <div class="date p-5">
+                      <img src="/img/icon3.png" alt="Icon">
+                      <h1 class="mt-5 mb-5">5,000+ Companies</h1>
+                      <p class="pb-5 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat 
+                        bibendum ornare urna, cursus eget convallis. Feugiat imperdiet posuere justo,</p>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="find container">
+      <div class="container text-center corp">
+        <h1 class="display-1 wb">Find Your <span>Perfect Job</span> Here</h1>
+      </div>
+      <div class="find-content container pt-5">
+          <div class="row">
+            <div class="col-md-6 fimage">
+              <img src="/img/image1.png" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-6 mt-5 pt-5">
+              <p class="fs-4 pt-5 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa 
+                ipsam illum quidem molestiae veritatis doloribus. Illum quasi reprehenderit voluptates 
+                velit qui, magnieaque pariatur doloremque aliquam eveniet sit dolorem obcaecati!</p>
+              <p class="fs-4 pt-5 m-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa 
+                ipsam illum quidem molestiae veritatis doloribus. Illum quasi reprehenderit voluptates 
+                velit qui, magnieaque pariatur doloremque aliquam eveniet sit dolorem obcaecati!</p>
+            </div>
+
+          </div>
+      </div>
+
+    </div>
+
+    <div class="recent container">
+      <div class="container text-center corp mb-5 pb-5">
+        <p class="m-auto fs-3">The latest perfect jobs</p>
+        <div class="rhead">
+          <h1 class="display-1 wb">Recently Posted <span> Jobs</span></h1>
+        </div>
+      </div>
+      <div class="row g-4 my-5 mx-auto pt-5 owl-carousel owl-theme">
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+              <div class="d-flex p-5">
+                <div class="jimage me-3">
+                  <img class="img-fluid" src="/img/adwords.png" alt="logo">
+                </div>
+                <div class="jtext">
+                  <p class="tit">Max Kento Ltd.</p>
+                  <p class="loc">New York, USA</p>
+                </div>
+              </div>
+              <div class="ps-5">
+                <p class="role">Front-end Developer</p>
+                <p class="type">Full-time</p>
+                <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+                <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+              </div>
+              <div class="d-flex justify-content-between p-5">
+                <div>
+                  <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+                </div>
+                <div>
+                  <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col job-card mx-auto pt-5 pb-4">
+          <div class="d-flex p-5">
+            <div class="jimage me-3">
+              <img class="img-fluid" src="/img/adwords.png" alt="logo">
+            </div>
+            <div class="jtext">
+              <p class="tit">Max Kento Ltd.</p>
+              <p class="loc">New York, USA</p>
+            </div>
+          </div>
+          <div class="ps-5">
+            <p class="role">Front-end Developer</p>
+            <p class="type">Full-time</p>
+            <p class="req">CSS3, HTML5, Javascript, Bootsrap, jQuery</p>
+            <p class="pay">$5000<span class="fs-6">/monthly</span></p>
+          </div>
+          <div class="d-flex justify-content-between p-5">
+            <div>
+              <a href="#" class="btn btn-lg learn fs-3">Click to Learn</a>
+            </div>
+            <div>
+              <a href="#" class="btn btn-lg apply fs-3">Apply Now</a>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      
+
+    </div>
+
+    <div class="subscribe container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-9 mx-auto text-center mt-5 mb-5">
+            <h1 class="display-3">Newsletter Subscription</h1>
+            <h4>Subscribe to our newsletter to get new jobs and projects</h4>
+            <div class="form-group mt-5">
+              <input type="email" id="email" class="form-control text-center fs-3 p-3" placeholder="Enter Your Email">
+            </div>
+            <div class="notify mt-5">
+              <button type="button" class="btn-lg fs-3">Subscribe</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 bottom">
+              <div class="logo2">
+                <a href="home.html"><img src="img/logo.png" alt="Compliance Medicals"></a>
+              </div>
+              <p class="mt-4 w-75">Jobaggregator helps you find your perfect job match by giving you 
+                necessary job details suited for you.</p>
+              <p class="mt-4">Job Search © 2022. All Rights Reserved.</p>
+              
+            </div>
+            <div class="col-lg-2 quick">
+              <ul class="nav flex-column mt-3">
+                <li class="enav-item">
+                  <a class="enav-link" href="about.html">About</a>
+                </li>
+                <li class="enav-item">
+                  <a class="enav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="enav-item">
+                  <a class="enav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 quick">
+              <ul class="nav flex-column mt-3">
+                <li class="enav-item">
+                  <a class="enav-link" href="hgvmedicals.html">Twitter</a>
+                </li>
+                <li class="enav-item">
+                  <a class="enav-link" href="business.html">Instagram</a>
+                </li>
+                <li class="enav-item">
+                  <a class="enav-link" href="contact.html">Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 quick">
+              <ul class="nav flex-column mt-3">
+                <li class="enav-item">
+                  <a href="mailto:help@jobaggregator.com">help@jobaggregator.com</a>
+                </li>
+                <li class="enav-item">
+                  <a href="mailto:sales@jobaggregator.com">sales@jobaggregator.com</a>
+                </li>
+                <li class="enav-item">
+                  <a href="tel:+0123 456 7890">Call Us: 0123 456 7890</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <script src="/js/scrpt.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script>
+      $("#multiple").select2({
+          placeholder: "Search",
+          allowClear: true,
+          maximumSelectionLength: 3
+          
+      });
+    </script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 15,
+          nav: true,
+          responsive: {
+              300: {
+                  items: 1,
+              },
+              
+              600: {
+                  items: 2,
+              },
+
+              1000: {
+                  items: 3
+              }
+          }
+      })
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
