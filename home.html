@@ -45,25 +45,28 @@
 
     <div class="body container">
       <div class="container text-center corp">
-        <h1 class="display-1 fw-bold">Find Your <br><span>Perfect Job</span> Match</h1>
-				<p class="fs-3 m-auto">Jobaggregator helps you find your perfect job 
-          match by giving you full details of the exact job searched for by using the available 
-          categories, showing also recommended jobs and skills needed to learn.</p>
+        <h1 class="display-1 fw-bold">Find The <br><span>Perfect Job</span> Match</h1>
+				<p class="fs-3 m-auto">Find jobs, employment & best career opportunities with Jobaggregator. 
+          Get jobs that are perfectly suited to match your skills and also get recommendations to
+          improve your skills further.</p>
       </div>
       <div class="container corp2">
           <div class="row p-2 border border-1 tout">
             <div class="col-lg-3 col-md-4">
-              <div class="form-group ">
-                <select class="form-select fs-5 choisi" aria-label="Default select example">
+              <div class="form-group">
+                <select class="form-select fs-3 choisi" aria-label="Default select example">
                   <option value="">Category </option>
-                  <option value="1">Skill</option>
-                  <option value="2">Job Role</option>
+                  <optgroup label="Skill">
+                    <option value="category-two__first-option">Soft Skill</option>
+                    <option value="category-two__second-option">Hard Skill</option>
+                  </optgroup>
+                  <option value="1">Job Role</option>
                   <option value="3">Skill / Job Role</option>
                 </select>
               </div>
             </div>
             <div class="col-lg-9 col-md-8">
-              <div class="form-group fs-4 watch">
+              <div class="form-group fs-2 watch">
                 <select id="multiple" class="form-select" multiple>
                   <option class="">Java</option>
                   <option class="">Javascript</option>
@@ -72,6 +75,7 @@
                   <option class="">React</option>
                   <option class="">Graphic Design</option>
                 </select>
+                <button type="submit"><i class="fa fa-search"></i></button>
               </div>
             </div>
           </div>
