@@ -53,6 +53,17 @@ body{
     color: #aed373;
 }
 
+.sup{
+    background-color: #aed373;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.sup:hover{
+    color: #fff;
+    background-color: #445baa;
+}
+
 .pct{
     color: #fff;
     background-color: #445baa;
@@ -93,12 +104,13 @@ body{
 
 .choisi{
     border: none;
-    padding: 1rem;
+    padding: .8rem;
     color: #9d9d9d;
+    font-size: 1.5rem;
 }
 
 .choisi option{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .choisi option:hover{
@@ -107,23 +119,52 @@ body{
 
 .watch{
     position: relative;
+    font-size: 1.7rem;
 }
 
 .watch option{
-    background-color: #445baa;
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
 }
 
 .watch button{
     background: none;
     position: absolute;
     border: none;
-    right: 3rem;
-    top: .6rem;
+    right: 4rem;
+    top: .8rem;
     color: #445baa;
     font-size: 1.6rem;
 }
 
+/*------------------------------------------------------------
+	TEST
+-------------------------------------------------------------*/
+
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select{
+    width: 100%;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkBoxes {
+    display: none;
+    border: .1rem #8DF5E4 solid;
+}
+
+#checkBoxes label {
+    display: block;
+}
 
 
 /*------------------------------------------------------------
@@ -146,6 +187,7 @@ body{
 .body-card{
     background-color: #f9fff0;
     border-radius: 3rem;
+    height: 100%;
 }
 
 .corp2{
@@ -248,8 +290,7 @@ body{
 
 .apply:hover{
     color: #aed373;
-    border: .2rem solid #aed373;
-    background: none;
+    background: #ffffff;
 }
 
 .owl-prev span, .owl-next span {
@@ -456,3 +497,19 @@ body{
 
 
 
+
+@media only screen and (max-width: 769px){
+
+    .hero {
+        background-color: #edfaff;
+        height: 90vh;
+    }
+
+    .hero img{
+       width: 100%;
+       display: none;
+    }
+
+    
+    
+}
